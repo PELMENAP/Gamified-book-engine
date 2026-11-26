@@ -1,0 +1,53 @@
+{
+  "globalGroups": {
+    "dom": ["document", "window", "navigator", "location", "HTMLElement", "Element", "Node", "IntersectionObserver", "requestAnimationFrame", "getComputedStyle"],
+    "storage": ["indexedDB", "localStorage", "sessionStorage", "caches"],
+    "audio": ["AudioContext", "OfflineAudioContext", "Audio"],
+    "clock": ["Date", "performance", "setTimeout", "setInterval"],
+    "random": ["Math\\.random", "crypto\\.getRandomValues", "crypto\\.randomUUID"],
+    "capacitor": ["Capacitor"]
+  },
+  "packages": {
+    "packages/format": {
+      "imports": [],
+      "forbid": ["dom", "storage", "audio", "clock", "random", "capacitor"]
+    },
+    "packages/core": {
+      "imports": ["@gbe/format"],
+      "forbid": ["dom", "storage", "audio", "clock", "random", "capacitor"]
+    },
+    "packages/crypto": {
+      "imports": ["@gbe/format"],
+      "forbid": ["dom", "storage", "audio", "clock", "capacitor"]
+    },
+    "packages/compiler": {
+      "imports": ["@gbe/format", "@gbe/crypto", "@gbe/core", "node:*", "yaml"],
+      "forbid": ["dom", "storage", "audio", "capacitor"]
+    },
+    "packages/reader-dom": {
+      "imports": ["@gbe/format", "@gbe/core"],
+      "forbid": ["storage", "audio", "capacitor"]
+    },
+    "packages/audio": {
+      "imports": ["@gbe/format"],
+      "forbid": ["storage", "capacitor"]
+    },
+    "packages/platform": {
+      "imports": ["@gbe/format", "@gbe/crypto", "@capacitor/*", "workbox-window"],
+      "forbid": []
+    },
+    "packages/shell": {
+      "imports": ["@gbe/format", "@gbe/core", "@gbe/reader-dom", "@gbe/audio", "@gbe/platform", "preact", "preact/*", "@preact/signals"],
+      "forbid": ["storage", "capacitor"]
+    },
+    "apps/probe": {
+      "imports": ["vite"],
+      "forbid": ["capacitor"]
+    },
+    "tools": {
+      "imports": ["node:*", "vitest", "fast-check"],
+      "forbid": ["dom"]
+    }
+  },
+  "testImports": ["vitest", "fast-check", "node:*"]
+}

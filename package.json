@@ -1,0 +1,28 @@
+{
+  "name": "gamified-book-engine",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "check": "pnpm run check:docs && pnpm run check:boundaries && pnpm run check:guard && pnpm run typecheck && pnpm run test",
+    "check:docs": "node tools/docmap.ts check --strict",
+    "check:boundaries": "node tools/boundaries.ts",
+    "check:guard": "node tools/guard.ts",
+    "check:leaks": "node tools/leakcheck.ts dist",
+    "check:budget": "node tools/budget.ts dist/pwa",
+    "docs:gen": "node tools/docmap.ts gen",
+    "typecheck": "tsc -b && tsc -p tools && tsc -p tsconfig.test.json",
+    "test": "vitest run",
+    "probe": "pnpm --filter @gbe/probe dev"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "fast-check": "^4.11.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "code": [
+    { "id": "html-sink", "pattern": "\\.(?:innerHTML|outerHTML)\\b|\\binsertAdjacentHTML\\b|\\bcreateContextualFragment\\b|\\bdocument\\.write(?:ln)?\\b|\\bDOMParser\\b", "message": "text reaches the DOM only through text nodes" },
+    { "id": "eval", "pattern": "(?<![\\w$.])eval\\s*\\(|\\bnew\\s+Function\\b|(?<![\\w$.])Function\\s*\\(", "message": "no code execution from data" },
+    { "id": "any", "pattern": ":\\s*any\\b|\\bas\\s+any\\b|<any>|\\bany\\[\\]|<any,|,\\s*any>", "message": "no any; use unknown and narrow" },
+    { "id": "clipboard-write", "pattern": "\\bclipboardData\\s*\\.\\s*setData\\b", "message": "copying never changes the clipboard" },
+    { "id": "non-null-bang-chain", "pattern": "!\\.\\w+!\\.", "message": "chained non-null assertions hide missing data" }
+  ],
+  "copyHandler": {
+    "listener": "addEventListener\\(\\s*['\"]copy['\"]|\\boncopy\\b",
+    "forbidden": "\\bpreventDefault\\s*\\(",
+    "message": "a copy handler never calls preventDefault"
+  },
+  "css": [
+    { "id": "content-visibility", "pattern": "content-visibility\\s*:\\s*auto", "message": "content-visibility: auto breaks position restore (docs/OPTIMIZATION.md)" }
+  ],
+  "html": [
+    { "id": "inline-script", "pattern": "<script(?![^>]*\\bsrc=)[^>]*>\\s*\\S", "message": "inline scripts break the CSP" },
+    { "id": "inline-handler", "pattern": "<[^>]+\\son[a-z]+\\s*=", "message": "inline event handlers break the CSP" },
+    { "id": "inline-style", "pattern": "<style\\b|\\sstyle\\s*=", "message": "inline styles break the CSP" }
+  ]
+}

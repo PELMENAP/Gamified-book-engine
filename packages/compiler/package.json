@@ -1,0 +1,14 @@
+{
+  "name": "@gbe/compiler",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@gbe/format": "workspace:*",
+    "@gbe/crypto": "workspace:*",
+    "@gbe/core": "workspace:*"
+  }
+}

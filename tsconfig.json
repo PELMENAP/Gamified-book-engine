@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/format" },
+    { "path": "packages/crypto" },
+    { "path": "packages/core" },
+    { "path": "packages/compiler" },
+    { "path": "packages/reader-dom" },
+    { "path": "packages/audio" },
+    { "path": "packages/platform" },
+    { "path": "packages/shell" },
+    { "path": "apps/probe" }
+  ]
+}

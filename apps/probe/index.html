@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self' ws:; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <title>Stage 0 probe</title>
+    <link rel="stylesheet" href="./probe.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Stage 0 probe</h1>
+      <p>Замеры платформы для этапа 0. Нажмите «Запустить» и пересылайте отчёт.</p>
+      <div class="actions">
+        <button id="run" type="button">Запустить</button>
+        <button id="copy" type="button" disabled>Скопировать отчёт</button>
+      </div>
+      <table id="results" aria-live="polite">
+        <thead>
+          <tr><th>Проба</th><th>Результат</th><th>Значение</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <section id="chapter" aria-label="Тестовая глава"></section>
+    </main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

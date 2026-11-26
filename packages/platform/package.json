@@ -1,0 +1,13 @@
+{
+  "name": "@gbe/platform",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@gbe/format": "workspace:*",
+    "@gbe/crypto": "workspace:*"
+  }
+}

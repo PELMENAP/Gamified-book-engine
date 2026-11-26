@@ -1,0 +1,9 @@
+format: 1
+id: line-of-life
+title:
+  ru: Линия жизни
+author: ""
+defaultLocale: ru
+locales: [ru]
+contentVersion: 1
+parts: ["01"]
