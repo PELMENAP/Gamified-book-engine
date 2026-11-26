@@ -63,3 +63,9 @@ Revert: delete `apps/probe`; nothing depends on it.
 Context: the prompt refers to `Примерный концепт архитектуры сюжета.md`; only the prompt was provided.
 Decision: `book/notes/README.md` names the expected path; the demo chapter waits for the concept file.
 Revert: none needed.
+
+## D-0012 · 2026-11-26 · Stage plan in the repository
+Decision: `docs/ROADMAP.md` (Russian, like the TheRavine roadmap) splits `docs/SPEC.md` stages into prompt-sized tasks.
+It is the only plan allowed in git; `CLAUDE.md` names the exception. `tools/docmap.json` excludes it from path checks,
+because it names files of future stages. The resolver moves from stage 2 to task 1.5: the lint matrix needs it.
+Revert: delete the file and the exception.

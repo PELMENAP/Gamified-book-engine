@@ -79,6 +79,7 @@
     "BPK1"
   ],
   "excludedPaths": [
-    "docs/SPEC.md"
+    "docs/SPEC.md",
+    "docs/ROADMAP.md"
   ]
 }

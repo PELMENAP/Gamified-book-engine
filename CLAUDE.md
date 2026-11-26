@@ -31,6 +31,7 @@ Read only what the task touches. The Philosophy and Project constraints below ar
 - A data format change bumps its version constant, adds a migration and updates `docs/formats/` in the same commit.
 - Rules for maps: [docs/map/README.md](docs/map/README.md). Decisions: append to `docs/decisions.md`, never rewrite old entries.
 - Never commit ideas, backlogs, TODO lists or known defects. Keep them in the chat report.
+  Exception: `docs/ROADMAP.md`, the stage plan derived from `docs/SPEC.md`; a closed task is marked there, not deleted.
 
 ## Language
 Code, identifiers, commits, engineering docs and the decision log are in English.
