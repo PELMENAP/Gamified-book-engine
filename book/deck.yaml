@@ -1,0 +1,166 @@
+format: 1
+availableByPart:
+  "01": 8
+  "02": 12
+  "03": 16
+cards:
+  - id: thoughts
+    group: text
+    affectsText: true
+    unlockPart: 1
+    excludes: []
+    title: { ru: "Мысли героев" }
+    blurb: { ru: "Внутренние реплики, которые иногда спорят со сказанным вслух." }
+    preview: previews/thoughts.bmd
+    presentationClass: null
+    audioBus: null
+  - id: expanded
+    group: text
+    affectsText: true
+    unlockPart: 1
+    excludes: [distill]
+    title: { ru: "Расширенные описания" }
+    blurb: { ru: "Подробности мест, вещей и тел." }
+    preview: previews/expanded.bmd
+    presentationClass: null
+    audioBus: null
+  - id: distill
+    group: text
+    affectsText: true
+    unlockPart: 1
+    excludes: [expanded]
+    title: { ru: "Сжатый сюжет" }
+    blurb: { ru: "Меньше описаний, зато в конце главы вы получите сводку." }
+    preview: previews/distill.bmd
+    presentationClass: null
+    audioBus: null
+  - id: facts
+    group: text
+    affectsText: true
+    unlockPart: 1
+    excludes: []
+    title: { ru: "Факты и отсылки" }
+    blurb: { ru: "Заметки на полях и связи между главами." }
+    preview: previews/facts.bmd
+    presentationClass: null
+    audioBus: null
+  - id: documents
+    group: text
+    affectsText: true
+    unlockPart: 2
+    excludes: []
+    title: { ru: "Чужие документы" }
+    blurb: { ru: "Письма и записи других людей." }
+    preview: previews/documents.bmd
+    presentationClass: null
+    audioBus: null
+  - id: edits
+    group: text
+    affectsText: true
+    unlockPart: 3
+    excludes: []
+    title: { ru: "Правки рассказчика" }
+    blurb: { ru: "Зачёркнутые варианты, в которых рассказчик выдаёт себя." }
+    preview: previews/edits.bmd
+    presentationClass: null
+    audioBus: null
+  - id: faces
+    group: view
+    affectsText: false
+    unlockPart: 1
+    excludes: []
+    title: { ru: "Лица" }
+    blurb: { ru: "Аватары в диалогах, которые меняются вместе с настроением." }
+    preview: previews/faces.bmd
+    presentationClass: card-faces
+    audioBus: null
+  - id: voices
+    group: view
+    affectsText: false
+    unlockPart: 1
+    excludes: []
+    title: { ru: "Голоса" }
+    blurb: { ru: "У каждого героя свой шрифт и ритм строки." }
+    preview: previews/voices.bmd
+    presentationClass: card-voices
+    audioBus: null
+  - id: threads
+    group: view
+    affectsText: false
+    unlockPart: 2
+    excludes: []
+    title: { ru: "Нити" }
+    blurb: { ru: "Подсветка мотивов и переходы к их прошлым появлениям." }
+    preview: previews/threads.bmd
+    presentationClass: card-threads
+    audioBus: null
+  - id: atlas
+    group: view
+    affectsText: false
+    unlockPart: 3
+    excludes: []
+    title: { ru: "Атлас" }
+    blurb: { ru: "Место, время и участники сцены на полях." }
+    preview: previews/atlas.bmd
+    presentationClass: card-atlas
+    audioBus: null
+  - id: ambience
+    group: sense
+    affectsText: false
+    unlockPart: 1
+    excludes: []
+    title: { ru: "Окружение" }
+    blurb: { ru: "Фоновые звуки сцены." }
+    preview: previews/ambience.bmd
+    presentationClass: null
+    audioBus: ambience
+  - id: score
+    group: sense
+    affectsText: false
+    unlockPart: 2
+    excludes: []
+    title: { ru: "Музыка эмоций" }
+    blurb: { ru: "Музыкальные темы вслед за настроением сцены." }
+    preview: previews/score.bmd
+    presentationClass: null
+    audioBus: music
+  - id: pulse
+    group: sense
+    affectsText: false
+    unlockPart: 1
+    excludes: []
+    title: { ru: "Пульс" }
+    blurb: { ru: "Вибрация и визуальный ритм, работает без наушников." }
+    preview: previews/pulse.bmd
+    presentationClass: card-pulse
+    audioBus: pulse
+  - id: recall
+    group: rule
+    affectsText: true
+    unlockPart: 3
+    excludes: []
+    title: { ru: "Цепкая память" }
+    blurb: { ru: "Показывает прежнюю стадию изменившегося текста призраком." }
+    preview: previews/recall.bmd
+    presentationClass: null
+    audioBus: null
+  - id: decoder
+    group: rule
+    affectsText: true
+    unlockPart: 2
+    excludes: []
+    title: { ru: "Дешифратор" }
+    blurb: { ru: "Происхождение слов и проявленные скрытые надписи." }
+    preview: previews/decoder.bmd
+    presentationClass: null
+    audioBus: null
+  - id: witness
+    group: rule
+    affectsText: true
+    unlockPart: 3
+    excludes: []
+    title: { ru: "Второй свидетель" }
+    blurb: { ru: "Реакции собеседника на допросах и одна лишняя реплика." }
+    preview: previews/witness.bmd
+    presentationClass: null
+    audioBus: null

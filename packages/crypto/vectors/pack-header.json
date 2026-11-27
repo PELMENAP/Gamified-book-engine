@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "vectors": [
+    {
+      "name": "minimal",
+      "version": 1,
+      "alg": 1,
+      "contentVersion": 1,
+      "chunkIdHash": "000102030405060708090a0b0c0d0e0f",
+      "nonce": "a0a1a2a3a4a5a6a7a8a9aaab",
+      "header": "42504b31010101000000000102030405060708090a0b0c0d0e0fa0a1a2a3a4a5a6a7a8a9aaab"
+    },
+    {
+      "name": "max-content-version",
+      "version": 1,
+      "alg": 1,
+      "contentVersion": 4294967295,
+      "chunkIdHash": "ffffffffffffffffffffffffffffffff",
+      "nonce": "000000000000000000000000",
+      "header": "42504b310101ffffffffffffffffffffffffffffffffffffffff000000000000000000000000"
+    }
+  ],
+  "normalize": [
+    { "input": "Сирень", "output": "сирень" },
+    { "input": "  куст   СИРЕНИ! ", "output": "куст сирени" },
+    { "input": "Ёлка, ёж", "output": "елка еж" },
+    { "input": "«сирень»", "output": "сирень" },
+    { "input": "ｃｉｒｅｎ", "output": "ciren" },
+    { "input": "куст—сирени", "output": "куст сирени" }
+  ],
+  "base32": [
+    { "hex": "", "text": "" },
+    { "hex": "66", "text": "my" },
+    { "hex": "666f6f626172", "text": "mzxw6ytboi" }
+  ]
+}

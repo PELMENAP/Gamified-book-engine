@@ -1,0 +1,16 @@
+{
+  "name": "@gbe/shell",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@gbe/format": "workspace:*",
+    "@gbe/core": "workspace:*",
+    "@gbe/reader-dom": "workspace:*",
+    "@gbe/audio": "workspace:*",
+    "@gbe/platform": "workspace:*"
+  }
+}

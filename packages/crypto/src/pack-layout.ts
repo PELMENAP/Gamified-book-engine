@@ -1,0 +1,20 @@
+export const PACK_MAGIC = 'BPK1'
+export const PACK_VERSION = 1
+export const PACK_ALG_AES256GCM_DEFLATE_RAW = 1
+
+export const PACK_MAGIC_OFFSET = 0
+export const PACK_MAGIC_SIZE = 4
+export const PACK_VERSION_OFFSET = 4
+export const PACK_VERSION_SIZE = 1
+export const PACK_ALG_OFFSET = 5
+export const PACK_ALG_SIZE = 1
+export const PACK_CONTENT_VERSION_OFFSET = 6
+export const PACK_CONTENT_VERSION_SIZE = 4
+export const PACK_CHUNK_ID_HASH_OFFSET = 10
+export const PACK_CHUNK_ID_HASH_SIZE = 16
+export const PACK_NONCE_OFFSET = 26
+export const PACK_NONCE_SIZE = 12
+export const PACK_HEADER_SIZE = 38
+export const PACK_CIPHERTEXT_OFFSET = PACK_HEADER_SIZE
+export const PACK_GCM_TAG_SIZE = 16
+export const PACK_MIN_SIZE = PACK_HEADER_SIZE + PACK_GCM_TAG_SIZE

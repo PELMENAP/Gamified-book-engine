@@ -1,0 +1,4 @@
+{
+  "shellAndReaderJsGzipBytes": 122880,
+  "excludeDirs": ["packs", "audio", "v"]
+}

@@ -1,0 +1,85 @@
+{
+  "indexPath": "docs/map/INDEX.md",
+  "largePath": "docs/map/LARGE_FILES.md",
+  "largeLimit": 400,
+  "budgets": {
+    "CLAUDE.md": 90,
+    "docs/map/*": 150
+  },
+  "lineLimit": 200,
+  "lineLimitFiles": [
+    "docs/map/*"
+  ],
+  "checkedNames": [
+    "CLAUDE.md",
+    "AGENTS.md",
+    "docs/map/*"
+  ],
+  "checkedPaths": [
+    "README.md",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "PHILOSOPHY.md",
+    "docs/*.md",
+    "docs/map/*",
+    "docs/formats/*",
+    "book/README.md",
+    "book/notes/README.md"
+  ],
+  "generated": [
+    "docs/map/INDEX.md",
+    "docs/map/LARGE_FILES.md"
+  ],
+  "externalNames": [
+    "IntersectionObserver",
+    "CompressionStream",
+    "DecompressionStream",
+    "CryptoKey",
+    "WebCrypto",
+    "IndexedDB",
+    "Uint8Array",
+    "Uint32Array",
+    "Int16Array",
+    "DataView",
+    "AudioContext",
+    "TextEncoder",
+    "requestAnimationFrame",
+    "Workbox",
+    "Preact",
+    "Capacitor",
+    "TypeScript",
+    "Vitest",
+    "Playwright",
+    "Vite",
+    "Typst",
+    "EpubCheck",
+    "WKWebView",
+    "README",
+    "CLAUDE",
+    "AGENTS",
+    "DOM",
+    "CSP",
+    "IR",
+    "CI",
+    "JSON",
+    "YAML",
+    "HKDF",
+    "PBKDF2",
+    "AES",
+    "GCM",
+    "ECDSA",
+    "LRU",
+    "NFKC",
+    "AAD",
+    "CEK",
+    "MASTER",
+    "EK",
+    "PK",
+    "LOCK",
+    "BPK1"
+  ],
+  "excludedPaths": [
+    "docs/SPEC.md",
+    "docs/ROADMAP.md"
+  ]
+}
