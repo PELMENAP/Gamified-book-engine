@@ -1,0 +1,240 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "tempo.bmd",
+                "line": 3
+              },
+              "text": "Она вышла на лестницу, и "
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 38,
+                    "file": "tempo.bmd",
+                    "line": 3
+                  },
+                  "text": " дверь захлопнулась навсегда"
+                }
+              ],
+              "kind": "tempo",
+              "mode": {
+                "pos": {
+                  "col": 33,
+                  "file": "tempo.bmd",
+                  "line": 3
+                },
+                "text": "word"
+              },
+              "pos": {
+                "col": 26,
+                "file": "tempo.bmd",
+                "line": 3
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 67,
+                "file": "tempo.bmd",
+                "line": 3
+              },
+              "text": "."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 69,
+              "file": "tempo.bmd",
+              "line": 3
+            },
+            "value": "2001"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "tempo.bmd",
+            "line": 3
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 6,
+                "file": "tempo.bmd",
+                "line": 5
+              },
+              "text": "— "
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 20,
+                    "file": "tempo.bmd",
+                    "line": 5
+                  },
+                  "text": " Не оборачивайся."
+                }
+              ],
+              "kind": "tempo",
+              "mode": {
+                "pos": {
+                  "col": 15,
+                  "file": "tempo.bmd",
+                  "line": 5
+                },
+                "text": "word"
+              },
+              "pos": {
+                "col": 8,
+                "file": "tempo.bmd",
+                "line": 5
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 39,
+              "file": "tempo.bmd",
+              "line": 5
+            },
+            "value": "2002"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "tempo.bmd",
+            "line": 5
+          },
+          "speaker": {
+            "kind": "speaker",
+            "name": "lux",
+            "pos": {
+              "col": 1,
+              "file": "tempo.bmd",
+              "line": 5
+            }
+          }
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "tempo.bmd",
+                "line": 7
+              },
+              "text": "Тишина."
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 20,
+                    "file": "tempo.bmd",
+                    "line": 7
+                  },
+                  "text": " Тише. Ещё тише."
+                }
+              ],
+              "kind": "tempo",
+              "mode": {
+                "pos": {
+                  "col": 15,
+                  "file": "tempo.bmd",
+                  "line": 7
+                },
+                "text": "word"
+              },
+              "pos": {
+                "col": 8,
+                "file": "tempo.bmd",
+                "line": 7
+              }
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 39,
+                  "file": "tempo.bmd",
+                  "line": 7
+                },
+                "text": "thoughts"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 48,
+                    "file": "tempo.bmd",
+                    "line": 7
+                  },
+                  "text": " Или это только кажется."
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 37,
+                "file": "tempo.bmd",
+                "line": 7
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 74,
+              "file": "tempo.bmd",
+              "line": 7
+            },
+            "value": "2003"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "tempo.bmd",
+            "line": 7
+          },
+          "speaker": null
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "tempo.bmd",
+          "line": 1
+        },
+        "text": "id=ch02.s03 pov=lux pace=para"
+      },
+      "pos": {
+        "col": 1,
+        "file": "tempo.bmd",
+        "line": 1
+      }
+    }
+  ],
+  "kind": "file",
+  "pos": {
+    "col": 1,
+    "file": "tempo.bmd",
+    "line": 1
+  }
+}

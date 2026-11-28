@@ -1,0 +1,29 @@
+::scene{id=ch05.s01 pov=lux}
+
+::interrogation{id=iq01 subject=ipsam}
+@ipsam — Где вы были в среду? ^5001
+
+@lux — Дома. ^5002
+::end
+
+::lock{id=lk01 question="Как звали соседа?"}
+Сосед по имени Я съехал. ^5003
+::end
+
+::recap
+Люкс рассказывает, как всё было.{+thoughts: Не совсем так.} ^5004
+::end
+
+::portrait{theme=city}
+Город помнит каждого. ^5005
+::end
+
+::print
+Только для печатного издания. ^5006
+::end
+
+::core
+::lock{id=lk02}
+Вложенный замок.{if time.night: Ночью он тише.} ^5007
+::end
+::end

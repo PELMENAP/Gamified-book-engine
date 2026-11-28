@@ -6,6 +6,7 @@ One map per subsystem. Open only the map of the area the task touches; the routi
 |---|---|
 | `docs/map/layout.md` | Packages and apps, what each owns, dependency boundaries, the stage that fills it |
 | `docs/map/format.md` | `@gbe/format`: IR, expressions, reader state, log, save, manifest, traces, source types |
+| `docs/map/compiler.md` | `@gbe/compiler`: `.bmd` lexer, parser, AST with positions, parse errors, golden files |
 | `docs/map/crypto.md` | `@gbe/crypto`: pack header layout, answer normalization, base32, golden vectors |
 | `docs/map/tools.md` | Repository checks under `tools/` and CI |
 | `docs/map/probe.md` | `apps/probe`: stage 0 measurements of the platform |

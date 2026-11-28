@@ -1,0 +1,476 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 8,
+                "file": "spans-speaker.bmd",
+                "line": 3
+              },
+              "text": "— Я пришла вовремя."
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 29,
+                  "file": "spans-speaker.bmd",
+                  "line": 3
+                },
+                "text": "thoughts"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 38,
+                    "file": "spans-speaker.bmd",
+                    "line": 3
+                  },
+                  "text": " Нет, опоздала."
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 27,
+                "file": "spans-speaker.bmd",
+                "line": 3
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 55,
+              "file": "spans-speaker.bmd",
+              "line": 3
+            },
+            "value": "1001"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-speaker.bmd",
+            "line": 3
+          },
+          "speaker": {
+            "kind": "speaker",
+            "name": "ipsam",
+            "pos": {
+              "col": 1,
+              "file": "spans-speaker.bmd",
+              "line": 3
+            }
+          }
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 6,
+                "file": "spans-speaker.bmd",
+                "line": 5
+              },
+              "text": "— Мне "
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 17,
+                  "file": "spans-speaker.bmd",
+                  "line": 5
+                },
+                "text": "voices"
+              },
+              "kind": "alt",
+              "pos": {
+                "col": 12,
+                "file": "spans-speaker.bmd",
+                "line": 5
+              },
+              "variants": [
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 25,
+                      "file": "spans-speaker.bmd",
+                      "line": 5
+                    },
+                    "text": "хватит"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 34,
+                      "file": "spans-speaker.bmd",
+                      "line": 5
+                    },
+                    "text": "не хватит"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 44,
+                "file": "spans-speaker.bmd",
+                "line": 5
+              },
+              "text": " на сегодня."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 57,
+              "file": "spans-speaker.bmd",
+              "line": 5
+            },
+            "value": "1002"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-speaker.bmd",
+            "line": 5
+          },
+          "speaker": {
+            "kind": "speaker",
+            "name": "lux",
+            "pos": {
+              "col": 1,
+              "file": "spans-speaker.bmd",
+              "line": 5
+            }
+          }
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 8,
+                "file": "spans-speaker.bmd",
+                "line": 7
+              },
+              "text": "— "
+            },
+            {
+              "kind": "decay",
+              "pos": {
+                "col": 10,
+                "file": "spans-speaker.bmd",
+                "line": 7
+              },
+              "stages": [
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 18,
+                      "file": "spans-speaker.bmd",
+                      "line": 7
+                    },
+                    "text": "Дом стоит."
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 31,
+                      "file": "spans-speaker.bmd",
+                      "line": 7
+                    },
+                    "text": "Дом стоял."
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 44,
+                      "file": "spans-speaker.bmd",
+                      "line": 7
+                    },
+                    "text": "Дома не было."
+                  }
+                ]
+              ]
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 59,
+              "file": "spans-speaker.bmd",
+              "line": 7
+            },
+            "value": "1003"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-speaker.bmd",
+            "line": 7
+          },
+          "speaker": {
+            "kind": "speaker",
+            "name": "ipsam",
+            "pos": {
+              "col": 1,
+              "file": "spans-speaker.bmd",
+              "line": 7
+            }
+          }
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 6,
+                "file": "spans-speaker.bmd",
+                "line": 9
+              },
+              "text": "— Слышишь, это "
+            },
+            {
+              "form": null,
+              "kind": "word",
+              "pos": {
+                "col": 21,
+                "file": "spans-speaker.bmd",
+                "line": 9
+              },
+              "word": {
+                "pos": {
+                  "col": 24,
+                  "file": "spans-speaker.bmd",
+                  "line": 9
+                },
+                "text": "хиус"
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 29,
+                "file": "spans-speaker.bmd",
+                "line": 9
+              },
+              "text": "?"
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 45,
+                    "file": "spans-speaker.bmd",
+                    "line": 9
+                  },
+                  "text": " Ночью он слышнее."
+                }
+              ],
+              "expr": {
+                "pos": {
+                  "col": 34,
+                  "file": "spans-speaker.bmd",
+                  "line": 9
+                },
+                "text": "time.night"
+              },
+              "kind": "if",
+              "pos": {
+                "col": 30,
+                "file": "spans-speaker.bmd",
+                "line": 9
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 65,
+              "file": "spans-speaker.bmd",
+              "line": 9
+            },
+            "value": "1004"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-speaker.bmd",
+            "line": 9
+          },
+          "speaker": {
+            "kind": "speaker",
+            "name": "lux",
+            "pos": {
+              "col": 1,
+              "file": "spans-speaker.bmd",
+              "line": 9
+            }
+          }
+        },
+        {
+          "children": [
+            {
+              "card": {
+                "pos": {
+                  "col": 9,
+                  "file": "spans-speaker.bmd",
+                  "line": 11
+                },
+                "text": "thoughts"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 18,
+                    "file": "spans-speaker.bmd",
+                    "line": 11
+                  },
+                  "text": " , думая о своём,"
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 7,
+                "file": "spans-speaker.bmd",
+                "line": 11
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 36,
+                "file": "spans-speaker.bmd",
+                "line": 11
+              },
+              "text": " — Пойдём."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 47,
+              "file": "spans-speaker.bmd",
+              "line": 11
+            },
+            "value": "1005"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-speaker.bmd",
+            "line": 11
+          },
+          "speaker": {
+            "kind": "speaker",
+            "name": "ipsam",
+            "pos": {
+              "col": 1,
+              "file": "spans-speaker.bmd",
+              "line": 11
+            }
+          }
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 6,
+                "file": "spans-speaker.bmd",
+                "line": 13
+              },
+              "text": "— Пойдём."
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 17,
+                  "file": "spans-speaker.bmd",
+                  "line": 13
+                },
+                "text": "distill"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 25,
+                    "file": "spans-speaker.bmd",
+                    "line": 13
+                  },
+                  "text": " Хотя ещё рано."
+                }
+              ],
+              "kind": "hide",
+              "pos": {
+                "col": 15,
+                "file": "spans-speaker.bmd",
+                "line": 13
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 42,
+              "file": "spans-speaker.bmd",
+              "line": 13
+            },
+            "value": "1006"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-speaker.bmd",
+            "line": 13
+          },
+          "speaker": {
+            "kind": "speaker",
+            "name": "lux",
+            "pos": {
+              "col": 1,
+              "file": "spans-speaker.bmd",
+              "line": 13
+            }
+          }
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "spans-speaker.bmd",
+          "line": 1
+        },
+        "text": "id=ch02.s02 pov=ipsam"
+      },
+      "pos": {
+        "col": 1,
+        "file": "spans-speaker.bmd",
+        "line": 1
+      }
+    }
+  ],
+  "kind": "file",
+  "pos": {
+    "col": 1,
+    "file": "spans-speaker.bmd",
+    "line": 1
+  }
+}

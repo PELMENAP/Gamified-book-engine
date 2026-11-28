@@ -69,3 +69,19 @@ Decision: `docs/ROADMAP.md` (Russian, like the TheRavine roadmap) splits `docs/S
 It is the only plan allowed in git; `CLAUDE.md` names the exception. `tools/docmap.json` excludes it from path checks,
 because it names files of future stages. The resolver moves from stage 2 to task 1.5: the lint matrix needs it.
 Revert: delete the file and the exception.
+
+## D-0013 · 2026-11-28 · `.bmd` grammar choices left open by section 5
+Context: task 1.1 turns the section 5 markup into an AST; the section leaves these points open.
+Decision:
+- Paragraph = consecutive non-blank lines; a blank line, a directive line or a line starting with `@` ends it. `^id` closes the last line only.
+- `::scene{…}` has no `::end`: it lasts until the next `::scene` or the end of the file. `::core`, `::optional`, `::interrogation`, `::lock`, `::recap`, `::portrait`, `::print` need `::end` and may nest; a `::scene` inside an open block reports `missing-end` for that block.
+- Parameters: required for `scene`, `interrogation`, `lock`; forbidden for `core`, `optional`, `end`; optional for `recap`, `portrait`, `print` until their stages define them. Parameters stay raw text.
+- `alt` and `decay` variants are trimmed at both ends, including the space after the header colon and before `}`; the other span kinds keep every character after the first colon.
+- `alt` takes exactly 2 variants, `decay` at least 2; an empty variant is legal. `{tempo word:}` accepts the mode `word` only, the value of `Run.tempo`.
+- Whitespace between `@name` and the line, and before `^id`, is a separator and not text.
+- Names: card, glossary form `[A-Za-z0-9_-]+`; glossary word `[\p{L}\p{N}_-]+`; speaker `[\p{L}\p{N}_-]+`. Stricter checks against the deck and glossary belong to 1.5 and 1.7.
+- No escape for `{` and `}` exists in the spec, so a literal brace cannot be written yet; an unmatched `}` is an error.
+- Layer directives (`::layer`, `::after`, `::replace`, `::remove`) are unknown directives until 1.5.
+- Columns count UTF-16 units; a leading BOM takes none; `\r\n` and `\n` both end a line, and an inner paragraph newline is stored as `\n`.
+Reason: each choice keeps the author's text intact and makes every error point at a single construct.
+Revert: edit `packages/compiler/src/parser.ts` and `inline.ts`, regenerate the goldens with `GOLDEN_UPDATE=1`.

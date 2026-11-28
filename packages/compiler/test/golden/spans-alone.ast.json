@@ -1,0 +1,472 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "spans-alone.bmd",
+                "line": 3
+              },
+              "text": "Окно запотело изнутри."
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 25,
+                  "file": "spans-alone.bmd",
+                  "line": 3
+                },
+                "text": "expanded"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 34,
+                    "file": "spans-alone.bmd",
+                    "line": 3
+                  },
+                  "text": " Снаружи тоже."
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 23,
+                "file": "spans-alone.bmd",
+                "line": 3
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 50,
+              "file": "spans-alone.bmd",
+              "line": 3
+            },
+            "value": "0001"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-alone.bmd",
+            "line": 3
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "spans-alone.bmd",
+                "line": 5
+              },
+              "text": "Окно запотело изнутри."
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 25,
+                  "file": "spans-alone.bmd",
+                  "line": 5
+                },
+                "text": "distill"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 33,
+                    "file": "spans-alone.bmd",
+                    "line": 5
+                  },
+                  "text": " Снаружи тоже."
+                }
+              ],
+              "kind": "hide",
+              "pos": {
+                "col": 23,
+                "file": "spans-alone.bmd",
+                "line": 5
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 49,
+              "file": "spans-alone.bmd",
+              "line": 5
+            },
+            "value": "0002"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-alone.bmd",
+            "line": 5
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "spans-alone.bmd",
+                "line": 7
+              },
+              "text": "Чай остыл "
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 16,
+                  "file": "spans-alone.bmd",
+                  "line": 7
+                },
+                "text": "facts"
+              },
+              "kind": "alt",
+              "pos": {
+                "col": 11,
+                "file": "spans-alone.bmd",
+                "line": 7
+              },
+              "variants": [
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 23,
+                      "file": "spans-alone.bmd",
+                      "line": 7
+                    },
+                    "text": "до комнатной температуры"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 50,
+                      "file": "spans-alone.bmd",
+                      "line": 7
+                    },
+                    "text": "до температуры стола"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 71,
+                "file": "spans-alone.bmd",
+                "line": 7
+              },
+              "text": " за разговором."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 87,
+              "file": "spans-alone.bmd",
+              "line": 7
+            },
+            "value": "0003"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-alone.bmd",
+            "line": 7
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "decay",
+              "pos": {
+                "col": 1,
+                "file": "spans-alone.bmd",
+                "line": 9
+              },
+              "stages": [
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 9,
+                      "file": "spans-alone.bmd",
+                      "line": 9
+                    },
+                    "text": "Дверь закрыта."
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 26,
+                      "file": "spans-alone.bmd",
+                      "line": 9
+                    },
+                    "text": "Дверь прикрыта."
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 44,
+                      "file": "spans-alone.bmd",
+                      "line": 9
+                    },
+                    "text": "Двери нет."
+                  }
+                ]
+              ]
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 56,
+              "file": "spans-alone.bmd",
+              "line": 9
+            },
+            "value": "0004"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-alone.bmd",
+            "line": 9
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "spans-alone.bmd",
+                "line": 11
+              },
+              "text": "Чайник кипит."
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 29,
+                    "file": "spans-alone.bmd",
+                    "line": 11
+                  },
+                  "text": " Ночью он шумит громче."
+                }
+              ],
+              "expr": {
+                "pos": {
+                  "col": 18,
+                  "file": "spans-alone.bmd",
+                  "line": 11
+                },
+                "text": "time.night"
+              },
+              "kind": "if",
+              "pos": {
+                "col": 14,
+                "file": "spans-alone.bmd",
+                "line": 11
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 54,
+              "file": "spans-alone.bmd",
+              "line": 11
+            },
+            "value": "0005"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-alone.bmd",
+            "line": 11
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "spans-alone.bmd",
+                "line": 13
+              },
+              "text": "Ветер называют "
+            },
+            {
+              "form": null,
+              "kind": "word",
+              "pos": {
+                "col": 16,
+                "file": "spans-alone.bmd",
+                "line": 13
+              },
+              "word": {
+                "pos": {
+                  "col": 19,
+                  "file": "spans-alone.bmd",
+                  "line": 13
+                },
+                "text": "хиус"
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 24,
+                "file": "spans-alone.bmd",
+                "line": 13
+              },
+              "text": " и "
+            },
+            {
+              "form": {
+                "pos": {
+                  "col": 35,
+                  "file": "spans-alone.bmd",
+                  "line": 13
+                },
+                "text": "gen"
+              },
+              "kind": "word",
+              "pos": {
+                "col": 27,
+                "file": "spans-alone.bmd",
+                "line": 13
+              },
+              "word": {
+                "pos": {
+                  "col": 30,
+                  "file": "spans-alone.bmd",
+                  "line": 13
+                },
+                "text": "хиус"
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 39,
+                "file": "spans-alone.bmd",
+                "line": 13
+              },
+              "text": " по-разному."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 52,
+              "file": "spans-alone.bmd",
+              "line": 13
+            },
+            "value": "0006"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-alone.bmd",
+            "line": 13
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 33,
+                    "file": "spans-alone.bmd",
+                    "line": 15
+                  },
+                  "text": " Лицо в окне не узнаёт себя."
+                }
+              ],
+              "expr": {
+                "pos": {
+                  "col": 5,
+                  "file": "spans-alone.bmd",
+                  "line": 15
+                },
+                "text": "card.faces and not law.mind"
+              },
+              "kind": "if",
+              "pos": {
+                "col": 1,
+                "file": "spans-alone.bmd",
+                "line": 15
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 63,
+              "file": "spans-alone.bmd",
+              "line": 15
+            },
+            "value": "0007"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spans-alone.bmd",
+            "line": 15
+          },
+          "speaker": null
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "spans-alone.bmd",
+          "line": 1
+        },
+        "text": "id=ch02.s01 pov=ipsam"
+      },
+      "pos": {
+        "col": 1,
+        "file": "spans-alone.bmd",
+        "line": 1
+      }
+    }
+  ],
+  "kind": "file",
+  "pos": {
+    "col": 1,
+    "file": "spans-alone.bmd",
+    "line": 1
+  }
+}

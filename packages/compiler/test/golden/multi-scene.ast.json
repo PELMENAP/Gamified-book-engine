@@ -1,0 +1,268 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "multi-scene.bmd",
+                "line": 3
+              },
+              "text": "Утро началось с дождя."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 24,
+              "file": "multi-scene.bmd",
+              "line": 3
+            },
+            "value": "3001"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "multi-scene.bmd",
+            "line": 3
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 6,
+                "file": "multi-scene.bmd",
+                "line": 5
+              },
+              "text": "— Опять."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 15,
+              "file": "multi-scene.bmd",
+              "line": 5
+            },
+            "value": "3002"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "multi-scene.bmd",
+            "line": 5
+          },
+          "speaker": {
+            "kind": "speaker",
+            "name": "lux",
+            "pos": {
+              "col": 1,
+              "file": "multi-scene.bmd",
+              "line": 5
+            }
+          }
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "multi-scene.bmd",
+          "line": 1
+        },
+        "text": "id=ch03.s01 pov=lux mood=calm"
+      },
+      "pos": {
+        "col": 1,
+        "file": "multi-scene.bmd",
+        "line": 1
+      }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 1,
+                    "file": "multi-scene.bmd",
+                    "line": 10
+                  },
+                  "text": "Ипсам читает карту."
+                }
+              ],
+              "id": {
+                "kind": "id",
+                "pos": {
+                  "col": 21,
+                  "file": "multi-scene.bmd",
+                  "line": 10
+                },
+                "value": "3003"
+              },
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "multi-scene.bmd",
+                "line": 10
+              },
+              "speaker": null
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "kind": "text",
+                      "pos": {
+                        "col": 1,
+                        "file": "multi-scene.bmd",
+                        "line": 13
+                      },
+                      "text": "Карта пахнет сыростью."
+                    }
+                  ],
+                  "id": {
+                    "kind": "id",
+                    "pos": {
+                      "col": 24,
+                      "file": "multi-scene.bmd",
+                      "line": 13
+                    },
+                    "value": "3004"
+                  },
+                  "kind": "paragraph",
+                  "pos": {
+                    "col": 1,
+                    "file": "multi-scene.bmd",
+                    "line": 13
+                  },
+                  "speaker": null
+                }
+              ],
+              "kind": "optional",
+              "params": null,
+              "pos": {
+                "col": 1,
+                "file": "multi-scene.bmd",
+                "line": 12
+              }
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 1,
+                    "file": "multi-scene.bmd",
+                    "line": 16
+                  },
+                  "text": "Она складывает её вчетверо."
+                }
+              ],
+              "id": {
+                "kind": "id",
+                "pos": {
+                  "col": 29,
+                  "file": "multi-scene.bmd",
+                  "line": 16
+                },
+                "value": "3005"
+              },
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "multi-scene.bmd",
+                "line": 16
+              },
+              "speaker": null
+            }
+          ],
+          "kind": "core",
+          "params": null,
+          "pos": {
+            "col": 1,
+            "file": "multi-scene.bmd",
+            "line": 9
+          }
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "multi-scene.bmd",
+          "line": 7
+        },
+        "text": "id=ch03.s02 pov=ipsam mood=tense themes=city"
+      },
+      "pos": {
+        "col": 1,
+        "file": "multi-scene.bmd",
+        "line": 7
+      }
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "multi-scene.bmd",
+                "line": 21
+              },
+              "text": "Вечером дождь прекратился."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 28,
+              "file": "multi-scene.bmd",
+              "line": 21
+            },
+            "value": "3006"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "multi-scene.bmd",
+            "line": 21
+          },
+          "speaker": null
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "multi-scene.bmd",
+          "line": 19
+        },
+        "text": "id=ch03.s03 pov=lux"
+      },
+      "pos": {
+        "col": 1,
+        "file": "multi-scene.bmd",
+        "line": 19
+      }
+    }
+  ],
+  "kind": "file",
+  "pos": {
+    "col": 1,
+    "file": "multi-scene.bmd",
+    "line": 1
+  }
+}

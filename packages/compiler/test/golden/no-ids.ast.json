@@ -1,0 +1,166 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "no-ids.bmd",
+                "line": 3
+              },
+              "text": "Абзац без идентификатора."
+            }
+          ],
+          "id": null,
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "no-ids.bmd",
+            "line": 3
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 6,
+                "file": "no-ids.bmd",
+                "line": 5
+              },
+              "text": "— Реплика без идентификатора."
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 37,
+                  "file": "no-ids.bmd",
+                  "line": 5
+                },
+                "text": "thoughts"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 46,
+                    "file": "no-ids.bmd",
+                    "line": 5
+                  },
+                  "text": " Мысль без идентификатора."
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 35,
+                "file": "no-ids.bmd",
+                "line": 5
+              }
+            }
+          ],
+          "id": null,
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "no-ids.bmd",
+            "line": 5
+          },
+          "speaker": {
+            "kind": "speaker",
+            "name": "lux",
+            "pos": {
+              "col": 1,
+              "file": "no-ids.bmd",
+              "line": 5
+            }
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 1,
+                    "file": "no-ids.bmd",
+                    "line": 8
+                  },
+                  "text": "Обязательный блок без идентификатора."
+                }
+              ],
+              "id": null,
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "no-ids.bmd",
+                "line": 8
+              },
+              "speaker": null
+            }
+          ],
+          "kind": "core",
+          "params": null,
+          "pos": {
+            "col": 1,
+            "file": "no-ids.bmd",
+            "line": 7
+          }
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "no-ids.bmd",
+                "line": 11
+              },
+              "text": "Абзац с идентификатором."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 26,
+              "file": "no-ids.bmd",
+              "line": 11
+            },
+            "value": "7001"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "no-ids.bmd",
+            "line": 11
+          },
+          "speaker": null
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "no-ids.bmd",
+          "line": 1
+        },
+        "text": "id=ch07.s01 pov=lux"
+      },
+      "pos": {
+        "col": 1,
+        "file": "no-ids.bmd",
+        "line": 1
+      }
+    }
+  ],
+  "kind": "file",
+  "pos": {
+    "col": 1,
+    "file": "no-ids.bmd",
+    "line": 1
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "first-colon.bmd",
+                "line": 3
+              },
+              "text": "Она задумалась"
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 17,
+                  "file": "first-colon.bmd",
+                  "line": 3
+                },
+                "text": "thoughts"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 26,
+                    "file": "first-colon.bmd",
+                    "line": 3
+                  },
+                  "text": ", почти"
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 15,
+                "file": "first-colon.bmd",
+                "line": 3
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 34,
+                "file": "first-colon.bmd",
+                "line": 3
+              },
+              "text": " и промолчала."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 49,
+              "file": "first-colon.bmd",
+              "line": 3
+            },
+            "value": "4001"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "first-colon.bmd",
+            "line": 3
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "first-colon.bmd",
+                "line": 5
+              },
+              "text": "Она задумалась"
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 17,
+                  "file": "first-colon.bmd",
+                  "line": 5
+                },
+                "text": "thoughts"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 26,
+                    "file": "first-colon.bmd",
+                    "line": 5
+                  },
+                  "text": " , почти"
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 15,
+                "file": "first-colon.bmd",
+                "line": 5
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 35,
+                "file": "first-colon.bmd",
+                "line": 5
+              },
+              "text": " и промолчала."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 50,
+              "file": "first-colon.bmd",
+              "line": 5
+            },
+            "value": "4002"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "first-colon.bmd",
+            "line": 5
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "first-colon.bmd",
+                "line": 7
+              },
+              "text": "Она задумалась."
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 18,
+                  "file": "first-colon.bmd",
+                  "line": 7
+                },
+                "text": "thoughts"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 27,
+                    "file": "first-colon.bmd",
+                    "line": 7
+                  },
+                  "text": ". Почти."
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 16,
+                "file": "first-colon.bmd",
+                "line": 7
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 36,
+                "file": "first-colon.bmd",
+                "line": 7
+              },
+              "text": " Потом ушла."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 49,
+              "file": "first-colon.bmd",
+              "line": 7
+            },
+            "value": "4003"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "first-colon.bmd",
+            "line": 7
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "first-colon.bmd",
+                "line": 9
+              },
+              "text": "Она сказала: «да»"
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 20,
+                  "file": "first-colon.bmd",
+                  "line": 9
+                },
+                "text": "thoughts"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 29,
+                    "file": "first-colon.bmd",
+                    "line": 9
+                  },
+                  "text": " : а на деле нет"
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 18,
+                "file": "first-colon.bmd",
+                "line": 9
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 46,
+                "file": "first-colon.bmd",
+                "line": 9
+              },
+              "text": " и ушла."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 55,
+              "file": "first-colon.bmd",
+              "line": 9
+            },
+            "value": "4004"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "first-colon.bmd",
+            "line": 9
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "first-colon.bmd",
+                "line": 11
+              },
+              "text": "Она ждала"
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 25,
+                    "file": "first-colon.bmd",
+                    "line": 11
+                  },
+                  "text": "  допоздна,"
+                }
+              ],
+              "expr": {
+                "pos": {
+                  "col": 14,
+                  "file": "first-colon.bmd",
+                  "line": 11
+                },
+                "text": "time.night"
+              },
+              "kind": "if",
+              "pos": {
+                "col": 10,
+                "file": "first-colon.bmd",
+                "line": 11
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 37,
+                "file": "first-colon.bmd",
+                "line": 11
+              },
+              "text": " и ждала."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 47,
+              "file": "first-colon.bmd",
+              "line": 11
+            },
+            "value": "4005"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "first-colon.bmd",
+            "line": 11
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "card": {
+                "pos": {
+                  "col": 6,
+                  "file": "first-colon.bmd",
+                  "line": 13
+                },
+                "text": "facts"
+              },
+              "kind": "alt",
+              "pos": {
+                "col": 1,
+                "file": "first-colon.bmd",
+                "line": 13
+              },
+              "variants": [
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 14,
+                      "file": "first-colon.bmd",
+                      "line": 13
+                    },
+                    "text": "Один"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 23,
+                      "file": "first-colon.bmd",
+                      "line": 13
+                    },
+                    "text": "Два"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 29,
+                "file": "first-colon.bmd",
+                "line": 13
+              },
+              "text": " вопроса."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 39,
+              "file": "first-colon.bmd",
+              "line": 13
+            },
+            "value": "4006"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "first-colon.bmd",
+            "line": 13
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "decay",
+              "pos": {
+                "col": 1,
+                "file": "first-colon.bmd",
+                "line": 15
+              },
+              "stages": [
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 8,
+                      "file": "first-colon.bmd",
+                      "line": 15
+                    },
+                    "text": "До вечера"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 20,
+                      "file": "first-colon.bmd",
+                      "line": 15
+                    },
+                    "text": "До утра"
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 30,
+                      "file": "first-colon.bmd",
+                      "line": 15
+                    },
+                    "text": "До никогда"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 41,
+                "file": "first-colon.bmd",
+                "line": 15
+              },
+              "text": " она не вернётся."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 59,
+              "file": "first-colon.bmd",
+              "line": 15
+            },
+            "value": "4007"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "first-colon.bmd",
+            "line": 15
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "first-colon.bmd",
+                "line": 17
+              },
+              "text": "Она "
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 10,
+                  "file": "first-colon.bmd",
+                  "line": 17
+                },
+                "text": "facts"
+              },
+              "kind": "alt",
+              "pos": {
+                "col": 5,
+                "file": "first-colon.bmd",
+                "line": 17
+              },
+              "variants": [
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 17,
+                      "file": "first-colon.bmd",
+                      "line": 17
+                    },
+                    "text": "идёт"
+                  }
+                ],
+                []
+              ]
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 24,
+                "file": "first-colon.bmd",
+                "line": 17
+              },
+              "text": " домой."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 32,
+              "file": "first-colon.bmd",
+              "line": 17
+            },
+            "value": "4008"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "first-colon.bmd",
+            "line": 17
+          },
+          "speaker": null
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "first-colon.bmd",
+          "line": 1
+        },
+        "text": "id=ch04.s01 pov=lux"
+      },
+      "pos": {
+        "col": 1,
+        "file": "first-colon.bmd",
+        "line": 1
+      }
+    }
+  ],
+  "kind": "file",
+  "pos": {
+    "col": 1,
+    "file": "first-colon.bmd",
+    "line": 1
+  }
+}

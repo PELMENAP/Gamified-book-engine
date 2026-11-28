@@ -1,0 +1,373 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "spec-sample.bmd",
+                "line": 3
+              },
+              "text": "Люкс оплачивает дождь до вечера. Облако висит над балконом и больше ни над кем."
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 82,
+                  "file": "spec-sample.bmd",
+                  "line": 3
+                },
+                "text": "expanded"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 91,
+                    "file": "spec-sample.bmd",
+                    "line": 3
+                  },
+                  "text": " Соседнее небо выглажено, без единой складки."
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 80,
+                "file": "spec-sample.bmd",
+                "line": 3
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 138,
+              "file": "spec-sample.bmd",
+              "line": 3
+            },
+            "value": "a7f3"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spec-sample.bmd",
+            "line": 3
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 6,
+                "file": "spec-sample.bmd",
+                "line": 5
+              },
+              "text": "— Мне хватит."
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 21,
+                  "file": "spec-sample.bmd",
+                  "line": 5
+                },
+                "text": "thoughts"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 30,
+                    "file": "spec-sample.bmd",
+                    "line": 5
+                  },
+                  "text": " На самом деле не хватает, но чего, уже не вспомнить."
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 19,
+                "file": "spec-sample.bmd",
+                "line": 5
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 85,
+              "file": "spec-sample.bmd",
+              "line": 5
+            },
+            "value": "b19c"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spec-sample.bmd",
+            "line": 5
+          },
+          "speaker": {
+            "kind": "speaker",
+            "name": "lux",
+            "pos": {
+              "col": 1,
+              "file": "spec-sample.bmd",
+              "line": 5
+            }
+          }
+        },
+        {
+          "children": [
+            {
+              "kind": "decay",
+              "pos": {
+                "col": 1,
+                "file": "spec-sample.bmd",
+                "line": 7
+              },
+              "stages": [
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 9,
+                      "file": "spec-sample.bmd",
+                      "line": 7
+                    },
+                    "text": "Сосед по имени Я съехал в среду."
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 44,
+                      "file": "spec-sample.bmd",
+                      "line": 7
+                    },
+                    "text": "Сосед по имени Я съехал в четверг."
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 81,
+                      "file": "spec-sample.bmd",
+                      "line": 7
+                    },
+                    "text": "Сосед по имени Я съехал."
+                  }
+                ]
+              ]
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 107,
+              "file": "spec-sample.bmd",
+              "line": 7
+            },
+            "value": "c01d"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spec-sample.bmd",
+            "line": 7
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 1,
+                    "file": "spec-sample.bmd",
+                    "line": 10
+                  },
+                  "text": "Длинное описание, которое выпадает при сжатом чтении."
+                }
+              ],
+              "id": {
+                "kind": "id",
+                "pos": {
+                  "col": 55,
+                  "file": "spec-sample.bmd",
+                  "line": 10
+                },
+                "value": "d44e"
+              },
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "spec-sample.bmd",
+                "line": 10
+              },
+              "speaker": null
+            }
+          ],
+          "kind": "optional",
+          "params": null,
+          "pos": {
+            "col": 1,
+            "file": "spec-sample.bmd",
+            "line": 9
+          }
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "spec-sample.bmd",
+                "line": 13
+              },
+              "text": "С окраины тянет "
+            },
+            {
+              "form": null,
+              "kind": "word",
+              "pos": {
+                "col": 17,
+                "file": "spec-sample.bmd",
+                "line": 13
+              },
+              "word": {
+                "pos": {
+                  "col": 20,
+                  "file": "spec-sample.bmd",
+                  "line": 13
+                },
+                "text": "хиус"
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 25,
+                "file": "spec-sample.bmd",
+                "line": 13
+              },
+              "text": "."
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 41,
+                    "file": "spec-sample.bmd",
+                    "line": 13
+                  },
+                  "text": " Ночной тариф на погоду уже начал действовать."
+                }
+              ],
+              "expr": {
+                "pos": {
+                  "col": 30,
+                  "file": "spec-sample.bmd",
+                  "line": 13
+                },
+                "text": "time.night"
+              },
+              "kind": "if",
+              "pos": {
+                "col": 26,
+                "file": "spec-sample.bmd",
+                "line": 13
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 89,
+              "file": "spec-sample.bmd",
+              "line": 13
+            },
+            "value": "e8b2"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "spec-sample.bmd",
+            "line": 13
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 1,
+                    "file": "spec-sample.bmd",
+                    "line": 16
+                  },
+                  "text": "У Ипсам есть карта того, что лежит за Городом."
+                }
+              ],
+              "id": {
+                "kind": "id",
+                "pos": {
+                  "col": 48,
+                  "file": "spec-sample.bmd",
+                  "line": 16
+                },
+                "value": "f6a0"
+              },
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "spec-sample.bmd",
+                "line": 16
+              },
+              "speaker": null
+            }
+          ],
+          "kind": "core",
+          "params": null,
+          "pos": {
+            "col": 1,
+            "file": "spec-sample.bmd",
+            "line": 15
+          }
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "spec-sample.bmd",
+          "line": 1
+        },
+        "text": "id=ch01.s02 pov=lux mood=calm pace=para ambience=rain-private themes=city,body"
+      },
+      "pos": {
+        "col": 1,
+        "file": "spec-sample.bmd",
+        "line": 1
+      }
+    }
+  ],
+  "kind": "file",
+  "pos": {
+    "col": 1,
+    "file": "spec-sample.bmd",
+    "line": 1
+  }
+}

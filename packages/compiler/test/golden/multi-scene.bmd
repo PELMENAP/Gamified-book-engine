@@ -1,0 +1,21 @@
+::scene{id=ch03.s01 pov=lux mood=calm}
+
+Утро началось с дождя. ^3001
+
+@lux — Опять. ^3002
+
+::scene{id=ch03.s02 pov=ipsam mood=tense themes=city}
+
+::core
+Ипсам читает карту. ^3003
+
+::optional
+Карта пахнет сыростью. ^3004
+::end
+
+Она складывает её вчетверо. ^3005
+::end
+
+::scene{id=ch03.s03 pov=lux}
+
+Вечером дождь прекратился. ^3006

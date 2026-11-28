@@ -1,0 +1,463 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "nested-spans.bmd",
+                "line": 3
+              },
+              "text": "Ветер"
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 8,
+                  "file": "nested-spans.bmd",
+                  "line": 3
+                },
+                "text": "expanded"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 17,
+                    "file": "nested-spans.bmd",
+                    "line": 3
+                  },
+                  "text": " , который здесь зовут "
+                },
+                {
+                  "form": {
+                    "pos": {
+                      "col": 48,
+                      "file": "nested-spans.bmd",
+                      "line": 3
+                    },
+                    "text": "gen"
+                  },
+                  "kind": "word",
+                  "pos": {
+                    "col": 40,
+                    "file": "nested-spans.bmd",
+                    "line": 3
+                  },
+                  "word": {
+                    "pos": {
+                      "col": 43,
+                      "file": "nested-spans.bmd",
+                      "line": 3
+                    },
+                    "text": "хиус"
+                  }
+                },
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 52,
+                    "file": "nested-spans.bmd",
+                    "line": 3
+                  },
+                  "text": ","
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 6,
+                "file": "nested-spans.bmd",
+                "line": 3
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 54,
+                "file": "nested-spans.bmd",
+                "line": 3
+              },
+              "text": " стих."
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 75,
+                    "file": "nested-spans.bmd",
+                    "line": 3
+                  },
+                  "text": " Ночью "
+                },
+                {
+                  "card": {
+                    "pos": {
+                      "col": 87,
+                      "file": "nested-spans.bmd",
+                      "line": 3
+                    },
+                    "text": "facts"
+                  },
+                  "kind": "alt",
+                  "pos": {
+                    "col": 82,
+                    "file": "nested-spans.bmd",
+                    "line": 3
+                  },
+                  "variants": [
+                    [
+                      {
+                        "kind": "text",
+                        "pos": {
+                          "col": 94,
+                          "file": "nested-spans.bmd",
+                          "line": 3
+                        },
+                        "text": "тише"
+                      }
+                    ],
+                    [
+                      {
+                        "kind": "text",
+                        "pos": {
+                          "col": 101,
+                          "file": "nested-spans.bmd",
+                          "line": 3
+                        },
+                        "text": "громче"
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "card": {
+                    "pos": {
+                      "col": 110,
+                      "file": "nested-spans.bmd",
+                      "line": 3
+                    },
+                    "text": "thoughts"
+                  },
+                  "children": [
+                    {
+                      "kind": "text",
+                      "pos": {
+                        "col": 119,
+                        "file": "nested-spans.bmd",
+                        "line": 3
+                      },
+                      "text": " , чем днём"
+                    }
+                  ],
+                  "kind": "show",
+                  "pos": {
+                    "col": 108,
+                    "file": "nested-spans.bmd",
+                    "line": 3
+                  }
+                },
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 131,
+                    "file": "nested-spans.bmd",
+                    "line": 3
+                  },
+                  "text": "."
+                }
+              ],
+              "expr": {
+                "pos": {
+                  "col": 64,
+                  "file": "nested-spans.bmd",
+                  "line": 3
+                },
+                "text": "time.night"
+              },
+              "kind": "if",
+              "pos": {
+                "col": 60,
+                "file": "nested-spans.bmd",
+                "line": 3
+              }
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 134,
+              "file": "nested-spans.bmd",
+              "line": 3
+            },
+            "value": "6001"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "nested-spans.bmd",
+            "line": 3
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "card": {
+                "pos": {
+                  "col": 6,
+                  "file": "nested-spans.bmd",
+                  "line": 5
+                },
+                "text": "facts"
+              },
+              "kind": "alt",
+              "pos": {
+                "col": 1,
+                "file": "nested-spans.bmd",
+                "line": 5
+              },
+              "variants": [
+                [
+                  {
+                    "children": [
+                      {
+                        "kind": "text",
+                        "pos": {
+                          "col": 28,
+                          "file": "nested-spans.bmd",
+                          "line": 5
+                        },
+                        "text": " Ночь | Вечер"
+                      }
+                    ],
+                    "expr": {
+                      "pos": {
+                        "col": 17,
+                        "file": "nested-spans.bmd",
+                        "line": 5
+                      },
+                      "text": "time.night"
+                    },
+                    "kind": "if",
+                    "pos": {
+                      "col": 13,
+                      "file": "nested-spans.bmd",
+                      "line": 5
+                    }
+                  }
+                ],
+                [
+                  {
+                    "kind": "text",
+                    "pos": {
+                      "col": 45,
+                      "file": "nested-spans.bmd",
+                      "line": 5
+                    },
+                    "text": "День"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 50,
+                "file": "nested-spans.bmd",
+                "line": 5
+              },
+              "text": " прошёл."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 59,
+              "file": "nested-spans.bmd",
+              "line": 5
+            },
+            "value": "6002"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "nested-spans.bmd",
+            "line": 5
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "nested-spans.bmd",
+                "line": 7
+              },
+              "text": "Два "
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 17,
+                    "file": "nested-spans.bmd",
+                    "line": 7
+                  },
+                  "text": " коротких слова "
+                },
+                {
+                  "form": null,
+                  "kind": "word",
+                  "pos": {
+                    "col": 33,
+                    "file": "nested-spans.bmd",
+                    "line": 7
+                  },
+                  "word": {
+                    "pos": {
+                      "col": 36,
+                      "file": "nested-spans.bmd",
+                      "line": 7
+                    },
+                    "text": "хиус"
+                  }
+                }
+              ],
+              "kind": "tempo",
+              "mode": {
+                "pos": {
+                  "col": 12,
+                  "file": "nested-spans.bmd",
+                  "line": 7
+                },
+                "text": "word"
+              },
+              "pos": {
+                "col": 5,
+                "file": "nested-spans.bmd",
+                "line": 7
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 42,
+                "file": "nested-spans.bmd",
+                "line": 7
+              },
+              "text": " подряд."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 51,
+              "file": "nested-spans.bmd",
+              "line": 7
+            },
+            "value": "6003"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "nested-spans.bmd",
+            "line": 7
+          },
+          "speaker": null
+        },
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "nested-spans.bmd",
+                "line": 9
+              },
+              "text": "Первая строка абзаца\nвторая строка с "
+            },
+            {
+              "card": {
+                "pos": {
+                  "col": 19,
+                  "file": "nested-spans.bmd",
+                  "line": 10
+                },
+                "text": "thoughts"
+              },
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 28,
+                    "file": "nested-spans.bmd",
+                    "line": 10
+                  },
+                  "text": " переносом\nвнутри спана"
+                }
+              ],
+              "kind": "show",
+              "pos": {
+                "col": 17,
+                "file": "nested-spans.bmd",
+                "line": 10
+              }
+            },
+            {
+              "kind": "text",
+              "pos": {
+                "col": 14,
+                "file": "nested-spans.bmd",
+                "line": 11
+              },
+              "text": "\nи третья."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 11,
+              "file": "nested-spans.bmd",
+              "line": 12
+            },
+            "value": "6004"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "nested-spans.bmd",
+            "line": 9
+          },
+          "speaker": null
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "nested-spans.bmd",
+          "line": 1
+        },
+        "text": "id=ch06.s01 pov=lux"
+      },
+      "pos": {
+        "col": 1,
+        "file": "nested-spans.bmd",
+        "line": 1
+      }
+    }
+  ],
+  "kind": "file",
+  "pos": {
+    "col": 1,
+    "file": "nested-spans.bmd",
+    "line": 1
+  }
+}

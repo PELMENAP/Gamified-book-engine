@@ -1,0 +1,57 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "text",
+              "pos": {
+                "col": 1,
+                "file": "bom-crlf.bmd",
+                "line": 3
+              },
+              "text": "Строка с CRLF и BOM."
+            }
+          ],
+          "id": {
+            "kind": "id",
+            "pos": {
+              "col": 22,
+              "file": "bom-crlf.bmd",
+              "line": 3
+            },
+            "value": "8001"
+          },
+          "kind": "paragraph",
+          "pos": {
+            "col": 1,
+            "file": "bom-crlf.bmd",
+            "line": 3
+          },
+          "speaker": null
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "bom-crlf.bmd",
+          "line": 1
+        },
+        "text": "id=ch08.s01 pov=lux"
+      },
+      "pos": {
+        "col": 1,
+        "file": "bom-crlf.bmd",
+        "line": 1
+      }
+    }
+  ],
+  "kind": "file",
+  "pos": {
+    "col": 1,
+    "file": "bom-crlf.bmd",
+    "line": 1
+  }
+}

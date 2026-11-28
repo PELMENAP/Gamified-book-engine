@@ -1,0 +1,406 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 8,
+                    "file": "blocks.bmd",
+                    "line": 4
+                  },
+                  "text": "— Где вы были в среду?"
+                }
+              ],
+              "id": {
+                "kind": "id",
+                "pos": {
+                  "col": 31,
+                  "file": "blocks.bmd",
+                  "line": 4
+                },
+                "value": "5001"
+              },
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "blocks.bmd",
+                "line": 4
+              },
+              "speaker": {
+                "kind": "speaker",
+                "name": "ipsam",
+                "pos": {
+                  "col": 1,
+                  "file": "blocks.bmd",
+                  "line": 4
+                }
+              }
+            },
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 6,
+                    "file": "blocks.bmd",
+                    "line": 6
+                  },
+                  "text": "— Дома."
+                }
+              ],
+              "id": {
+                "kind": "id",
+                "pos": {
+                  "col": 14,
+                  "file": "blocks.bmd",
+                  "line": 6
+                },
+                "value": "5002"
+              },
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "blocks.bmd",
+                "line": 6
+              },
+              "speaker": {
+                "kind": "speaker",
+                "name": "lux",
+                "pos": {
+                  "col": 1,
+                  "file": "blocks.bmd",
+                  "line": 6
+                }
+              }
+            }
+          ],
+          "kind": "interrogation",
+          "params": {
+            "pos": {
+              "col": 17,
+              "file": "blocks.bmd",
+              "line": 3
+            },
+            "text": "id=iq01 subject=ipsam"
+          },
+          "pos": {
+            "col": 1,
+            "file": "blocks.bmd",
+            "line": 3
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 1,
+                    "file": "blocks.bmd",
+                    "line": 10
+                  },
+                  "text": "Сосед по имени Я съехал."
+                }
+              ],
+              "id": {
+                "kind": "id",
+                "pos": {
+                  "col": 26,
+                  "file": "blocks.bmd",
+                  "line": 10
+                },
+                "value": "5003"
+              },
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "blocks.bmd",
+                "line": 10
+              },
+              "speaker": null
+            }
+          ],
+          "kind": "lock",
+          "params": {
+            "pos": {
+              "col": 8,
+              "file": "blocks.bmd",
+              "line": 9
+            },
+            "text": "id=lk01 question=\"Как звали соседа?\""
+          },
+          "pos": {
+            "col": 1,
+            "file": "blocks.bmd",
+            "line": 9
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 1,
+                    "file": "blocks.bmd",
+                    "line": 14
+                  },
+                  "text": "Люкс рассказывает, как всё было."
+                },
+                {
+                  "card": {
+                    "pos": {
+                      "col": 35,
+                      "file": "blocks.bmd",
+                      "line": 14
+                    },
+                    "text": "thoughts"
+                  },
+                  "children": [
+                    {
+                      "kind": "text",
+                      "pos": {
+                        "col": 44,
+                        "file": "blocks.bmd",
+                        "line": 14
+                      },
+                      "text": " Не совсем так."
+                    }
+                  ],
+                  "kind": "show",
+                  "pos": {
+                    "col": 33,
+                    "file": "blocks.bmd",
+                    "line": 14
+                  }
+                }
+              ],
+              "id": {
+                "kind": "id",
+                "pos": {
+                  "col": 61,
+                  "file": "blocks.bmd",
+                  "line": 14
+                },
+                "value": "5004"
+              },
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "blocks.bmd",
+                "line": 14
+              },
+              "speaker": null
+            }
+          ],
+          "kind": "recap",
+          "params": null,
+          "pos": {
+            "col": 1,
+            "file": "blocks.bmd",
+            "line": 13
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 1,
+                    "file": "blocks.bmd",
+                    "line": 18
+                  },
+                  "text": "Город помнит каждого."
+                }
+              ],
+              "id": {
+                "kind": "id",
+                "pos": {
+                  "col": 23,
+                  "file": "blocks.bmd",
+                  "line": 18
+                },
+                "value": "5005"
+              },
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "blocks.bmd",
+                "line": 18
+              },
+              "speaker": null
+            }
+          ],
+          "kind": "portrait",
+          "params": {
+            "pos": {
+              "col": 12,
+              "file": "blocks.bmd",
+              "line": 17
+            },
+            "text": "theme=city"
+          },
+          "pos": {
+            "col": 1,
+            "file": "blocks.bmd",
+            "line": 17
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "text",
+                  "pos": {
+                    "col": 1,
+                    "file": "blocks.bmd",
+                    "line": 22
+                  },
+                  "text": "Только для печатного издания."
+                }
+              ],
+              "id": {
+                "kind": "id",
+                "pos": {
+                  "col": 31,
+                  "file": "blocks.bmd",
+                  "line": 22
+                },
+                "value": "5006"
+              },
+              "kind": "paragraph",
+              "pos": {
+                "col": 1,
+                "file": "blocks.bmd",
+                "line": 22
+              },
+              "speaker": null
+            }
+          ],
+          "kind": "print",
+          "params": null,
+          "pos": {
+            "col": 1,
+            "file": "blocks.bmd",
+            "line": 21
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "kind": "text",
+                      "pos": {
+                        "col": 1,
+                        "file": "blocks.bmd",
+                        "line": 27
+                      },
+                      "text": "Вложенный замок."
+                    },
+                    {
+                      "children": [
+                        {
+                          "kind": "text",
+                          "pos": {
+                            "col": 32,
+                            "file": "blocks.bmd",
+                            "line": 27
+                          },
+                          "text": " Ночью он тише."
+                        }
+                      ],
+                      "expr": {
+                        "pos": {
+                          "col": 21,
+                          "file": "blocks.bmd",
+                          "line": 27
+                        },
+                        "text": "time.night"
+                      },
+                      "kind": "if",
+                      "pos": {
+                        "col": 17,
+                        "file": "blocks.bmd",
+                        "line": 27
+                      }
+                    }
+                  ],
+                  "id": {
+                    "kind": "id",
+                    "pos": {
+                      "col": 49,
+                      "file": "blocks.bmd",
+                      "line": 27
+                    },
+                    "value": "5007"
+                  },
+                  "kind": "paragraph",
+                  "pos": {
+                    "col": 1,
+                    "file": "blocks.bmd",
+                    "line": 27
+                  },
+                  "speaker": null
+                }
+              ],
+              "kind": "lock",
+              "params": {
+                "pos": {
+                  "col": 8,
+                  "file": "blocks.bmd",
+                  "line": 26
+                },
+                "text": "id=lk02"
+              },
+              "pos": {
+                "col": 1,
+                "file": "blocks.bmd",
+                "line": 26
+              }
+            }
+          ],
+          "kind": "core",
+          "params": null,
+          "pos": {
+            "col": 1,
+            "file": "blocks.bmd",
+            "line": 25
+          }
+        }
+      ],
+      "kind": "scene",
+      "params": {
+        "pos": {
+          "col": 9,
+          "file": "blocks.bmd",
+          "line": 1
+        },
+        "text": "id=ch05.s01 pov=lux"
+      },
+      "pos": {
+        "col": 1,
+        "file": "blocks.bmd",
+        "line": 1
+      }
+    }
+  ],
+  "kind": "file",
+  "pos": {
+    "col": 1,
+    "file": "blocks.bmd",
+    "line": 1
+  }
+}

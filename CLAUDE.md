@@ -11,6 +11,7 @@ Read only what the task touches. The Philosophy and Project constraints below ar
 | Package layout, which package owns what, dependency boundaries | [docs/map/layout.md](docs/map/layout.md) |
 | IR, expressions, reader state, log, save, manifest, traces, source YAML types | [docs/map/format.md](docs/map/format.md), [docs/formats/README.md](docs/formats/README.md) |
 | Packs, headers, keys, answer normalization, base32 | [docs/map/crypto.md](docs/map/crypto.md), [docs/SECURITY.md](docs/SECURITY.md) |
+| `.bmd` lexer, parser, AST, parse errors, compiler golden files | [docs/map/compiler.md](docs/map/compiler.md), [docs/SPEC.md](docs/SPEC.md) section 5 |
 | Repository checks: docmap, boundaries, guard, leakcheck, budget | [docs/map/tools.md](docs/map/tools.md) |
 | Stage 0 device probe | [docs/map/probe.md](docs/map/probe.md) |
 | Book data, markup, demo chapter, notes | [docs/map/book.md](docs/map/book.md) |
